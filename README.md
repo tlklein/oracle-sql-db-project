@@ -59,12 +59,3 @@ This repository also includes the following resources related to the IT Asset Ma
 The content and exercises in this repository are based by the following resources:
 
 - **Murach's Oracle SQL and PL/SQL for Developers (2nd Edition)** by Joel Murach.
-  
-
-## About the Author
-
-This activity was completed as part of the **CIS 4338 Database Administration & Implementation** at the University of Houston under the guidance of Professor Susan Miertschin.
-
----
-
-Feel free to contribute, provide feedback, or discuss improvements!
