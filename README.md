@@ -1,7 +1,5 @@
 # IT Asset Management Database (Oracle SQL & PL/SQL)
 
-
-
 ## Project Overview
 
 A production-oriented **IT Asset Management (ITAM) relational database** using Oracle SQL and PL/SQL. It focuses on designing, securing, migrating, and optimizing enterprise-grade databases that support real business workflows such as asset tracking, auditing, and operational reporting.
