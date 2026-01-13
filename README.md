@@ -4,14 +4,14 @@
 
 This project is a production-oriented IT Asset Management (ITAM) relational database using Oracle SQL and PL/SQL. It focuses on designing, securing, migrating, and optimizing enterprise-grade databases that support real business workflows such as asset tracking, auditing, and operational reporting.
 
-This project reinforced that strong relational database design prevents entire classes of defects before they reach application code, while constraints and triggers serve as essential mechanisms for defensive data engineering. It highlighted that successful cloud migration extends beyond schema movement to include deliberate planning around users, roles, and security boundaries. 
-
 This project demonstrates exercises covering:
 - How to model business-critical data using relational design best practices
 - How to enforce correctness and consistency at the database layer
 - How to automate operational logic with PL/SQL instead of relying solely on application code
 - How to prepare and migrate databases for cloud environments
 - How to analyze and optimize query performance under realistic workloads
+
+This project reinforced that strong relational database design prevents entire classes of defects before they reach application code, while constraints and triggers serve as essential mechanisms for defensive data engineering. It highlighted that successful cloud migration extends beyond schema movement to include deliberate planning around users, roles, and security boundaries. 
 
 ## Core Capabilities & Exercises
 
