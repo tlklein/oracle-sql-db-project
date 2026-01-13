@@ -4,9 +4,9 @@
 
 This project is a production-oriented IT Asset Management (ITAM) relational database using Oracle SQL and PL/SQL. It focuses on designing, securing, migrating, and optimizing enterprise-grade databases that support real business workflows such as asset tracking, auditing, and operational reporting.
 
-The work emphasizes data integrity, automation, cloud migration readiness, and performance tuning, mirroring responsibilities commonly found in enterprise IT, cloud infrastructure, and platform engineering roles.
+This project reinforced that strong relational database design prevents entire classes of defects before they reach application code, while constraints and triggers serve as essential mechanisms for defensive data engineering. It highlighted that successful cloud migration extends beyond schema movement to include deliberate planning around users, roles, and security boundaries. 
 
-## Why This Project Matters
+## Project Scope
 
 Enterprise systems depend on reliable, secure, and performant databases. Poor schema design, missing constraints, or inefficient queries can directly impact uptime, security, and cost.
 
@@ -70,7 +70,6 @@ Included design artifacts and schema documentation to support maintainability an
 - AP Schema Diagram
 ![diagram](/diagrams/ap_schema.png)
 
-
 ## Tech Stack
 
 | Layer | Technology |
@@ -100,14 +99,6 @@ Included design artifacts and schema documentation to support maintainability an
 │   ├── ex7.sql
 └── README.md
 ```
-
-## Key Takeaways
-
-- Strong database design prevents entire classes of bugs before they reach application code
-- Constraints and triggers are critical for defensive data engineering
-- Cloud migration requires planning around users, roles, and security, not just schemas
-- Performance tuning is an iterative, measurement-driven process
-- Databases remain a core pillar of cloud-native and enterprise systems
 
 ## References
 
