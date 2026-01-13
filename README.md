@@ -82,14 +82,14 @@ Included design artifacts and schema documentation to support maintainability an
 ## Repository Structure
 
 ```text
-├── student_create_itam/
+├── student_create_itam/ # Core IT Asset Management schema
 │   └── ITAM schema creation scripts
-├── create_Murach_tables/
+├── create_Murach_tables/ # Reference and practice schemas
 │   └── Reference tables and sample datasets
-├── diagrams/
+├── diagrams/ # Architecture and data model documentation
 │   ├── ITAssetMgmnt_Diagram.png
 │   └── ap_schema.png
-├── plsql/
+├── plsql/ # Database automation and procedural logic
 │   ├── ex3.sql
 │   ├── ex4.sql
 │   ├── ex5.sql
