@@ -30,7 +30,7 @@ Developed SQL queries to support real business questions such as asset utilizati
 - Query readability and maintainability
 
 ### Cloud Migration & User Management
-Migrated the ITAM database to **Oracle Cloud**, simulating an enterprise transition from on-prem to cloud infrastructure.
+Migrated the ITAM database to Oracle Cloud, simulating an enterprise transition from on-prem to cloud infrastructure.
 
 - Schema migration
 - User creation and role-based access control
@@ -62,7 +62,6 @@ Analyzed and improved database and query performance using Oracle tooling and in
 ## Architecture & Database Resources
 
 Included design artifacts and schema documentation to support maintainability and knowledge transfer:
-
 
 - SQL scripts to create ITAM and Murach reference tables
 - Clear separation between schema creation, constraints, and procedural logic
