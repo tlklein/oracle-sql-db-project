@@ -17,8 +17,6 @@ This project demonstrates:
 - How to prepare and migrate databases for cloud environments
 - How to analyze and optimize query performance under realistic workloads
 
-These are foundational skills for cloud engineers, platform engineers, and backend developers working in regulated or enterprise-scale environments.
-
 ## Core Capabilities & Exercises
 
 ### Business-Driven Query Design
