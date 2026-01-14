@@ -1,4 +1,4 @@
-/* EX 5 Constraints to Support Data Integirty */
+/* EX 5 Constraints to Support Data Integrity */
 
 
 /* EX 5 Task 1. Add and Test Default Constraints to Support a Business Rule

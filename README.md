@@ -78,20 +78,36 @@ Included design artifacts and schema documentation to support maintainability an
 ## Repository Structure
 
 ```text
-├── student_create_itam/ # Core IT Asset Management schema
-│   └── ITAM schema creation scripts
-├── create_Murach_tables/ # Reference and practice schemas
-│   └── Reference tables and sample datasets
-├── diagrams/ # Architecture and data model documentation
-│   ├── ITAssetMgmnt_Diagram.png
-│   └── ap_schema.png
-├── plsql/ # Database automation and procedural logic
-│   ├── ex3.sql
-│   ├── ex4.sql
-│   ├── ex5.sql
-│   ├── ex6.sql
-│   ├── ex7.sql
-└── README.md
+├── student_create_itam/            # Core IT Asset Management schema data
+│   ├── application_data.tsv        # Seed data for applications tracked in ITAM
+│   ├── asset_desc_data.tsv         # Descriptions of IT assets (metadata, models)
+│   ├── asset_type_data.tsv         # Types/categories of assets (hardware, software)
+│   ├── ci_inventory_data.tsv       # Configuration item inventory details
+│   ├── ci_status_data.tsv          # Status of configuration items (active, retired, etc.)
+│   ├── computer_data.tsv           # PC/laptop inventory for employees
+│   ├── department_data.tsv         # Department master data (organizational units)
+│   ├── employee_ci_data.tsv        # Links employees to configuration items they own/use
+│   ├── employee_data.tsv           # Employee master records (name, role, department)
+│   ├── it_asset_inv_summary_data.tsv # Aggregated IT asset inventory summary for reporting
+│   ├── it_service_data.tsv         # IT service catalog and mappings to assets
+│   ├── other_data.tsv              # Miscellaneous or auxiliary reference data
+│   ├── peripheral_data.tsv         # Non-core devices (monitors, keyboards, mice)
+│   └── server_data.tsv             # Server inventory and specifications
+├── create_Murach_tables/           # Reference tables and sample datasets for learning/exercises
+│   ├── student_create_ap.sql       # Schema and sample data for Accounts Payable exercises
+│   ├── student_create_ex.sql       # Schema and sample data for general exercises
+│   └── student_create_om.sql       # Schema and sample data for Order Management exercises
+├── diagrams/                       # Architecture and data model documentation
+│   ├── ITAssetMgmnt_Diagram.png    # ER diagram for the ITAM relational schema
+│   └── ap_schema.png               # ER diagram for the AP schema
+├── plsql/          # Database automation and procedural logic
+│   ├── ex3.sql     # Queries for a Business Purpose
+│   ├── ex4.sql     # Migrate ITAM to the Cloud and Create and Enable Users
+│   ├── ex5.sql     # Constraints to Support Data Integrity
+│   ├── ex6.sql     # User-Defined Functions, Stored Procedures, and Triggers to Automate 
+Processes 
+│   ├── ex7.sql     # Database and Query Performance
+└── README.md       # Project summary
 ```
 
 ## References
